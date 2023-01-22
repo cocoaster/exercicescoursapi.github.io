@@ -9,5 +9,5 @@ req.open("get", "https://api.blablagues.net/?rub=blagues", true);
 req.send();
 
 fetch("monlien", "object d'options")
-  .then((reponse) => {})
+  .then((response) => {})
   .catch((err) => console.log(err));
