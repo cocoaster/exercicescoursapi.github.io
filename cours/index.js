@@ -8,6 +8,9 @@ req.onload = reqListener;
 req.open("get", "https://api.blablagues.net/?rub=blagues", true);
 req.send();
 
-fetch("monlien", "object d'options")
-  .then((response) => {})
-  .catch((err) => console.log(err));
+// fetch("https://api.blablagues.net/?rub=blagues")
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch((err) => console.log(err));
+fetch("data.txt").then((res) => console.log(res));
