@@ -1,12 +1,12 @@
-function reqListener() {
-  console.log(this.responseText);
-}
+// function reqListener() {
+//   console.log(this.responseText);
+// }
 
-let req = new XMLHttpRequest();
-req.onload = reqListener;
-// req.open("get", "data.json", true);
-req.open("get", "https://api.blablagues.net/?rub=blagues", true);
-req.send();
+// let req = new XMLHttpRequest();
+// req.onload = reqListener;
+// // req.open("get", "data.json", true);
+// req.open("get", "https://api.blablagues.net/?rub=blagues", true);
+// req.send();
 
 // fetch("https://api.blablagues.net/?rub=blagues")
 //   .then((response) => {
