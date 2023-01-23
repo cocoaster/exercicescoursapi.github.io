@@ -23,8 +23,7 @@ const userDisplay = async () => {
     let today = new Date();
     let todayTimestamp = Date.parse(today);
     let timestamp = Date.parse(date);
-
-    return Math.cell((todayTimestamp - timestamp) / 8.64e7);
+    return Math.ceil((todayTimestamp - timestamp) / 8.64e7);
   };
 
   document.body.innerHTML = userData
