@@ -1,3 +1,29 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "pseudo": "Coco Aster",
+      "message": "Hello",
+      "id": 1
+    },
+    {
+      "pseudo": "Coco Aster",
+      "message": "Hello",
+      "id": 2
+    },
+    {
+      "pseudo": "Coco Aster",
+      "message": "Hello",
+      "id": 3
+    },
+    {
+      "pseudo": "Coco Aster",
+      "message": "Hello",
+      "id": 4
+    },
+    {
+      "pseudo": "Coco Aster",
+      "message": "Hello",
+      "id": 5
+    }
+  ]
 }
