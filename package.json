@@ -19,6 +19,10 @@
   "homepage": "https://github.com/cocoaster/exercicescoursapi.github.io#readme",
   "devDependencies": {
     "eslint": "^8.32.0",
-    "prettier": "^2.8.3"
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "name": "my-cool-library",
+    "version": "9000.0.1"
   }
 }
